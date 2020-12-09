@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  //Con este script podemos conectarnos a firebase 
+  firebaseConfig : {
+    apiKey: "AIzaSyDugQgm8ZTo_wZKZAxnoO6rh8_klDiozc4",
+    authDomain: "agenciamovil-68d5c.firebaseapp.com",
+    projectId: "agenciamovil-68d5c",
+    storageBucket: "agenciamovil-68d5c.appspot.com",
+    messagingSenderId: "472956304162",
+    appId: "1:472956304162:web:40fe5bc7d4e9c680c7837b"
+  }
 };
 
 /*
